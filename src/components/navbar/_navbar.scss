@@ -1,0 +1,76 @@
+div#logo-social-media {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ui.doubling.three.column.grid {
+    background: #005331;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .icon {
+    color: white;
+  }
+  
+  #update-covid-19 {
+    background: #ffcb05;
+    width: 40%;
+    padding: 10px;
+  
+    font-weight: 900;
+  }
+  
+  .column.covid {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-align: -webkit-center;
+  }
+  
+
+  
+
+  
+
+  
+  div#rekening-zakat {
+    background: #ffcb05;
+    font-weight: 600;
+  }
+  
+  .ui[class*="five column"].grid > .column:not(.row),
+  .ui[class*="five column"].grid > .row > .column {
+    width: auto;
+  }
+  
+  .ui.three.column.grid {
+    justify-content: center;
+    align-items: center;
+    place-content: center;
+  }
+  
+  .column-rekening-zakat {
+    place-self: center;
+  }
+  
+  .logo-social-media {
+    place-self: center;
+  }
+
+  div#menu-item {
+    place-self: center;
+  }
+  
+  div#button-konfirmasi {
+    justify-content: center;
+    align-items: center;
+    place-self: center;
+    text-align: center;
+  }
+
+  #logo_baznas_mobile{
+      width: 50%;
+  }

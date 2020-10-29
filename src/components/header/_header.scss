@@ -1,0 +1,35 @@
+img {
+  #logo_baznas_mobile {
+    width: 50%;
+  }
+}
+
+.row {
+  .header-row {
+    padding-bottom: 0px !important;
+  }
+}
+
+.column {
+  .header-column {
+    place-self: center;
+  }
+}
+div#phone-number-header {
+  color: white;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+
+#icon-phone-header {
+  height: fit-content;
+  width: fit-content;
+  margin: 0;
+  padding: 0;
+}
+
+div#button-id-mobile {
+    place-self: center;
+    text-align: center;
+  }

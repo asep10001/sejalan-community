@@ -1,13 +1,136 @@
+img #logo_baznas_mobile {
+  width: 50%;
+}
+
+.row .header-row {
+  padding-bottom: 0px !important;
+}
+
+.column .header-column {
+  place-self: center;
+}
+
+div#phone-number-header {
+  color: white;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+
+#icon-phone-header {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0;
+  padding: 0;
+}
+
+div#button-id-mobile {
+  place-self: center;
+  text-align: center;
+}
+
+div#logo-social-media {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ui.doubling.three.column.grid {
+  background: #005331;
+  height: 10vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.icon {
+  color: white;
+}
+
+#update-covid-19 {
+  background: #ffcb05;
+  width: 40%;
+  padding: 10px;
+  font-weight: 900;
+}
+
+.column.covid {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  text-align: -webkit-center;
+}
+
+div#rekening-zakat {
+  background: #ffcb05;
+  font-weight: 600;
+}
+
+.ui[class*="five column"].grid > .column:not(.row),
+.ui[class*="five column"].grid > .row > .column {
+  width: auto;
+}
+
+.ui.three.column.grid {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  place-content: center;
+}
+
+.column-rekening-zakat {
+  place-self: center;
+}
+
+.logo-social-media {
+  place-self: center;
+}
+
+div#menu-item {
+  place-self: center;
+}
+
+div#button-konfirmasi {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  place-self: center;
+  text-align: center;
+}
+
+#logo_baznas_mobile {
+  width: 50%;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
+/*# sourceMappingURL=index.css.map */
