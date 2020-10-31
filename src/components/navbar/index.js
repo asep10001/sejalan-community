@@ -11,6 +11,7 @@ import {
   Header,
 } from "semantic-ui-react";
 import { Default, Desktop, Mobile, Tablet } from "../../function";
+import { Content1, Featured } from "../../page";
 import Home from "../../page/home";
 
 export class Navbar extends Component {
@@ -79,6 +80,8 @@ export class Navbar extends Component {
                 </Grid.Column>
               </Grid.Row>
             </Grid>
+            <Content1/>
+            <Featured/>
           </Desktop>
         </Default>
         <Tablet>HI</Tablet>
