@@ -1,18 +1,15 @@
 import "./App.css";
-import React, { Component } from "react";
+import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import { Header, Navbar } from "./components";
-import { Content1 } from "./page";
 
-class App extends Component {
-  render() {
+const App = () => {
     return (
       <Router>
         <Header />
         <Navbar />
       </Router>
     );
-  }
 }
 
 export default App;
