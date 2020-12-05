@@ -25,8 +25,8 @@ const items = [
 const Content1 = (props) => {
   return (
     <Carousel>
-      {items.map((item) => (
-        <React.Fragment>
+      {items.map((item, index) => (
+        <React.Fragment key={index}>
           <div>{item.name}</div>
           <Image src={item.description} />
         </React.Fragment>

@@ -6,15 +6,62 @@ img #logo_baznas_mobile {
   padding-bottom: 0px !important;
 }
 
+#menu-item {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
 .column .header-column {
   place-self: center;
 }
 
+div#rekening-zakat {
+  margin-top: 5px;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+}
+
+div#rekening-zakat button {
+  background: #ffcb05;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  width: -fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-weight: 600;
+  font-size: 13px;
+  border-radius: 5px;
+  border: none;
+}
+
 div#phone-number-header {
+  margin-top: 5px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+div#phone-number-header div {
   color: white;
   font-weight: 600;
   margin: 0;
   padding: 0;
+  font-size: 13px;
+}
+
+#header {
+  background: #005331;
+  height: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #icon-phone-header {
@@ -43,26 +90,20 @@ div#logo-social-media {
           align-items: center;
 }
 
-.ui.doubling.three.column.grid {
-  background: #005331;
-  height: 10vh;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
 .icon {
   color: white;
 }
 
 #update-covid-19 {
+  margin-top: 5px;
   background: #ffcb05;
-  width: 40%;
-  padding: 10px;
+  padding: 8px 22px;
   font-weight: 900;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 13px;
+  border-radius: 5px;
 }
 
 .column.covid {
@@ -74,11 +115,6 @@ div#logo-social-media {
           align-items: center;
   text-align: center;
   text-align: -webkit-center;
-}
-
-div#rekening-zakat {
-  background: #ffcb05;
-  font-weight: 600;
 }
 
 .ui[class*="five column"].grid > .column:not(.row),
@@ -119,8 +155,83 @@ div#button-konfirmasi {
   text-align: center;
 }
 
+div#button-konfirmasi #btn-bayar-zakat {
+  margin: 5px;
+  background: #ff0000;
+  color: #fcfcfc;
+}
+
+div#button-konfirmasi #btn-konfirmasi-zakat {
+  margin: 5px;
+  background: #ff0000;
+  color: #fcfcfc;
+}
+
 #logo_baznas_mobile {
   width: 50%;
+}
+
+#row-1-footer {
+  background: #005331;
+}
+
+#kantor-layanan-title {
+  color: #fff;
+  size: 15px;
+}
+
+#alamat-kantor-layanan {
+  color: #fff;
+  size: 13px;
+  text-align: center;
+}
+
+#alamat-footer {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: -webkit-center;
+  color: white;
+}
+
+#ikuti-kami-ttl,
+#layanan-publik,
+#ikuti-informasi-kami {
+  color: #fff;
+  size: 15px;
+}
+
+.ikuti-kami {
+  margin: 10px;
+  padding-bottom: 10px;
+  border-bottom: 3px dashed greenyellow;
+  font-size: 16px;
+}
+
+.ikuti-kami span {
+  padding-left: 10px;
+}
+
+#copyright-footer {
+  background-color: #ffcb05;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#copyright-footer div {
+  color: #fff;
+  size: 13px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 body {

@@ -20,8 +20,7 @@ const Navbar = () => {
     <>
       <Default>
         <Desktop>
-          <Grid columns="equal">
-            <Grid.Row>
+          <Grid columns={3}>
               <Grid.Column>
                 <Image src="https://baznas.go.id/application/views/assets/images/gallery/baznas_header.png" />
               </Grid.Column>
@@ -31,7 +30,7 @@ const Navbar = () => {
                     name="tentang-kami"
                     text="Tentang Kami"
                     className="link item"
-                    active={activeItem === "tentang-kami"}
+                    active={activeItem === "tentang-kami" ? "true" : false}
                     onClick={handleItemClick}
                   >
                     <Dropdown.Menu>
@@ -41,14 +40,14 @@ const Navbar = () => {
                   </Dropdown>
                   <Menu.Item
                     name="kegiatan-kami"
-                    active={activeItem === "kegiatan-kami"}
+                    active={activeItem === "kegiatan-kami" ? "true" : false}
                     onClick={handleItemClick}
                   >
                     Kegiatan Kami
                   </Menu.Item>
                   <Menu.Item
                     name="agenda"
-                    active={activeItem === "agenda"}
+                    active={activeItem === "agenda" ? "true" : false}
                     onClick={handleItemClick}
                   >
                     Agenda Penyaluran Bantuan
@@ -56,10 +55,9 @@ const Navbar = () => {
                 </Menu>
               </Grid.Column>
               <Grid.Column id="button-konfirmasi">
-                <Button>BAYAR ZAKAT</Button>
-                <Button>KONFIRMASI</Button>
+                <Button id="btn-bayar-zakat">BAYAR ZAKAT</Button>
+                <Button id="btn-konfirmasi-zakat">KONFIRMASI</Button>
               </Grid.Column>
-            </Grid.Row>
           </Grid>
           <Content1 />
           <Featured />

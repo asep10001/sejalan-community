@@ -1,0 +1,56 @@
+$text-white : #fff;
+
+@mixin fontHere($fontSize) {
+    color: $text-white;
+    size: $fontSize;
+}
+
+#row-1-footer {
+    background: #005331;
+}
+
+#kantor-layanan-title {
+    @include fontHere(15px);
+
+}
+
+#alamat-kantor-layanan {
+    @include fontHere(13px);
+    text-align: center;
+}
+
+#alamat-footer {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-align: -webkit-center;
+    color: white;
+}
+
+#ikuti-kami-ttl,
+#layanan-publik,
+#ikuti-informasi-kami {
+    @include fontHere(15px);
+}
+
+.ikuti-kami {
+    margin: 10px;
+    padding-bottom: 10px;
+    border-bottom: 3px dashed greenyellow;
+    font-size: 16px;
+
+    span {
+        padding-left: 10px;
+    }
+}
+
+#copyright-footer {
+    background-color: #ffcb05;
+    justify-content: center;
+    align-items: center;
+
+    div {
+        @include fontHere(13px);
+        width: fit-content;
+    }
+}

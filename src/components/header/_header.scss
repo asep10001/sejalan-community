@@ -10,16 +10,51 @@ img {
   }
 }
 
+#menu-item{
+  width: fit-content;
+}
+
 .column {
   .header-column {
     place-self: center;
   }
 }
+
+div#rekening-zakat {
+  margin-top: 5px;
+  width: min-content;
+
+  button {
+    background: #ffcb05;
+    height: max-content;
+    width: -fit-content;
+    width: fit-content;
+    font-weight: 600;
+    font-size: 13px;
+    border-radius: 5px;
+    border: none;
+  }
+}
+
+
 div#phone-number-header {
-  color: white;
-  font-weight: 600;
-  margin: 0;
-  padding: 0;
+  margin-top: 5px;
+  width: fit-content;
+
+  div {
+    color: white;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+  }
+}
+
+#header {
+  background: #005331;
+  height: auto;
+  justify-content: center;
+  align-items: center;
 }
 
 #icon-phone-header {
@@ -30,6 +65,6 @@ div#phone-number-header {
 }
 
 div#button-id-mobile {
-    place-self: center;
-    text-align: center;
-  }
+  place-self: center;
+  text-align: center;
+}

@@ -39,7 +39,7 @@ const Featured = (props) => {
     if (items.length > 4) {
       for (let index = indeks; index < jumlah; index++) {
         hasil.push(
-          <Grid.Column>
+          <Grid.Column key={index}>
             <Card style={styles.root}>
               <CardActionArea>
                 <CardMedia

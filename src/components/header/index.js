@@ -23,8 +23,7 @@ export class Header extends Component {
       <>
         <Default>
           <Desktop>
-            <Grid doubling columns={3}>
-              <Grid.Row className="header-row">
+            <Grid id="header" columns={3}>
                 <Grid.Column className="logo-social-media">
                   <Grid id="logo-social-media" columns={5}>
                     <Grid.Column
@@ -33,7 +32,7 @@ export class Header extends Component {
                         width: "auto",
                       }}
                     >
-                      <Icon name="facebook round" />
+                      <Icon name="facebook" />
                     </Grid.Column>
                     <Grid.Column
                       className="logo-masing-masing"
@@ -83,11 +82,10 @@ export class Header extends Component {
                       <div>+6221-22897983</div>
                     </Grid.Column>
                     <Grid.Column id="rekening-zakat">
-                      <div>REKENING ZAKAT</div>
+                      <button id="btn-rekening-zakat">REKENING ZAKAT</button>
                     </Grid.Column>
                   </Grid>
                 </Grid.Column>
-              </Grid.Row>
             </Grid>
           </Desktop>
         </Default>
