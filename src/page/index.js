@@ -1,6 +1,8 @@
-import Content1 from "./content1";
-import Featured from "./featured";
+import Profile from "./profile";
+import Home from "./home";
 
-const { default: Home } = require("./home");
 
-export { Home, Content1, Featured };
+export {
+    Home,
+    Profile
+};

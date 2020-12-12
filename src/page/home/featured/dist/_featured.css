@@ -1,0 +1,10 @@
+#featured_title_div {
+  width: -webkit-fill-available;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+#featured_title_div h1#featured-title {
+  text-align: center;
+  justify-content: center;
+  align-self: center;
+}
